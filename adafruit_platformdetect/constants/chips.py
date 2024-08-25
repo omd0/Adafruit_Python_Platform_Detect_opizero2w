@@ -3,6 +3,7 @@
 # SPDX-License-Identifier: MIT
 
 """Definition of chips."""
+
 A311D = "A311D"
 OS_AGNOSTIC = "OS_AGNOSTIC"
 AM33XX = "AM33XX"
@@ -55,6 +56,7 @@ A33 = "A33"
 H5 = "H5"
 H3 = "H3"
 H616 = "H616"
+H616 = "H618"
 RK3308 = "RK3308"
 RK3399 = "RK3399"
 RK3399_T = "RK3399_T"
