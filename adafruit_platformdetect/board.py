@@ -158,6 +158,8 @@ class Board:
             )
         elif chip_id == chips.H616:
             board_id = self._armbian_id() or self._allwinner_variants_id()
+        elif chip_id == chips.H618:
+            board_id = self._armbian_id() or self._allwinner_variants_id()
         elif chip_id == chips.A33:
             board_id = self._clockwork_pi_id()
         elif chip_id == chips.RK3308:
@@ -439,6 +441,8 @@ class Board:
             board = boards.ORANGE_PI_ZERO_PLUS
         elif board_value == "orangepizero2":
             board = boards.ORANGE_PI_ZERO_2
+        elif board_value == "orangepizero2w":
+            board = boards.ORANGE_PI_ZERO_2W
         elif board_value == "nanopiair":
             board = boards.NANOPI_NEO_AIR
         elif board_value == "nanopiduo2":
